@@ -127,14 +127,14 @@ const Key keymaps[][ROWS][COLS] PROGMEM = {
    Key_Tab,             Key_Q, Key_W, Key_E, Key_R, Key_T, LockLayer(NUMPAD),
    CTL_T(Backtick), Key_A, Key_S, Key_D, Key_F, Key_G,
    Key_Escape,          Key_Z, Key_X, Key_C, Key_V, Key_B, Key_Home,
-   SFT_T(KeypadLeftParen), Key_Space, Key_Backspace, Key_LeftGui,
+   SFT_T(KeypadLeftParen), Key_Space, GUI_T(Escape), Key_Equals,
    ShiftToLayer(FUNCTION),
 
    M(MACRO_ANY),      Key_6, Key_7, Key_8,     Key_9,         Key_0,         Key_Minus,
    LockLayer(NUMPAD), Key_Y, Key_U, Key_I,     Key_O,         Key_P,         Key_Equals,
                       Key_H, Key_J, Key_K,     Key_L,         Key_Semicolon, Key_Quote,
    Key_End,           Key_N, Key_M, Key_Comma, Key_Period,    Key_Slash,     Consumer_AL_Email_Reader,
-   Key_LeftAlt, Key_Escape, Key_Enter, SFT_T(KeypadRightParen),
+   ALT_T(Minus), SFT_T(Escape), CTL_T(Enter), SFT_T(KeypadRightParen),
    ShiftToLayer(FUNCTION)
   ),
 
@@ -160,13 +160,13 @@ const Key keymaps[][ROWS][COLS] PROGMEM = {
    ___, ___, ___, ___, ___, ___, ___,
    ___, ___, ___, ___, ___, ___,
    ___, ___, ___, ___, ___, ___, ___,
-   ___, ___, ___, ___,
+   ___, Key_Backspace, ___, ___,
    ___,
 
-   ___, Key_F6,              Key_F7,               Key_F8,               Key_F9,              Key_F10, ___,
+   ___, Key_F6,              Key_F7,                 Key_F8,               Key_F9,              Key_F10, ___,
    ___, Consumer_AC_PanLeft, Consumer_AC_ScrollDown, Consumer_AC_ScrollUp, Consumer_AC_PanRight, ___, ___,
-        Key_mouseL,          Key_mouseDn,          Key_mouseUp,          Key_mouseR,           ___, ___,
-   ___, Key_LeftArrow,       Key_DownArrow,        Key_UpArrow,          Key_RightArrow,       ___, ___,
+        Key_mouseL,          Key_mouseDn,            Key_mouseUp,          Key_mouseR,           ___, ___,
+   ___, Key_LeftArrow,       Key_DownArrow,          Key_UpArrow,          Key_RightArrow,       ___, ___,
    ___, ___, ___, ___,
    ___
  )
