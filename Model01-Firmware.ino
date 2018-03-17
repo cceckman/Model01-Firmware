@@ -163,10 +163,10 @@ const Key keymaps[][ROWS][COLS] PROGMEM = {
    ___, Key_Backspace, ___, ___,
    ___,
 
-   ___, Key_F6,              Key_F7,                 Key_F8,               Key_F9,              Key_F10, ___,
-   ___, Consumer_AC_PanLeft, Consumer_AC_ScrollDown, Consumer_AC_ScrollUp, Consumer_AC_PanRight, ___, ___,
-        Key_mouseL,          Key_mouseDn,            Key_mouseUp,          Key_mouseR,           ___, ___,
-   ___, Key_LeftArrow,       Key_DownArrow,          Key_UpArrow,          Key_RightArrow,       ___, ___,
+   ___, Key_F6,        Key_F7,            Key_F8,            Key_F9,         Key_F10, ___,
+   ___, ___,           Key_mouseScrollDn, Key_mouseScrollUp, ___,            ___, ___,
+        Key_mouseL,    Key_mouseDn,       Key_mouseUp,       Key_mouseR,     ___, ___,
+   ___, Key_LeftArrow, Key_DownArrow,     Key_UpArrow,       Key_RightArrow, ___, ___,
    ___, ___, ___, ___,
    ___
  )
