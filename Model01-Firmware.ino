@@ -167,7 +167,7 @@ const Key keymaps[][ROWS][COLS] PROGMEM = {
    ___, ___,           Key_mouseScrollDn, Key_mouseScrollUp, ___,            ___, ___,
         Key_mouseL,    Key_mouseDn,       Key_mouseUp,       Key_mouseR,     ___, ___,
    ___, Key_LeftArrow, Key_DownArrow,     Key_UpArrow,       Key_RightArrow, ___, ___,
-   ___, ___, ___, ___,
+   ___, Key_mouseBtnR, Key_mouseBtnL, ___,
    ___
  )
 
