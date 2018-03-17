@@ -47,6 +47,10 @@
 // Support for host power management (suspend & wakeup)
 #include "Kaleidoscope-HostPowerManagement.h"
 
+// Support for quantum / space cadet / dual-mode keys:
+// https://github.com/gedankenlab/Kaleidoscope-Qukeys
+# include <Kaleidoscope-Qukeys.h>
+
 
 /** This 'enum' is a list of all the macros used by the Model 01's firmware
   * The names aren't particularly important. What is important is that each
