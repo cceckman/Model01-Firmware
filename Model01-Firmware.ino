@@ -156,10 +156,10 @@ const Key keymaps[][ROWS][COLS] PROGMEM = {
   ),
 
   [FUNCTION] =  KEYMAP_STACKED
-  (___, Key_F1,     Key_F2,      Key_F3,     Key_F4,        Key_F5, XXX,
-   ___, ___,        Key_mouseUp, ___,        ___,           ___, ___,
-   ___, Key_mouseL, Key_mouseDn, Key_mouseR, Key_mouseBtnL, ___,
-   ___, ___, ___, ___, ___, ___, ___,
+  (___, Key_F1,     Key_F2,      Key_F3,     Key_F4,         Key_F5, XXX,
+   ___, ___,        Key_mouseUp, ___,        ___,            ___, ___,
+   ___, Key_mouseL, Key_mouseDn, Key_mouseR, Key_mouseBtnL,  ___,
+   ___, ___,        ___,         ___,        LSHIFT(Key_Insert), ___, ___,
    ___, Key_Backspace, ___, ___,
    ___,
 
