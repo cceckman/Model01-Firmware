@@ -131,10 +131,10 @@ const Key keymaps[][ROWS][COLS] PROGMEM = {
    ShiftToLayer(FUNCTION),
 
    M(MACRO_ANY),      Key_6, Key_7, Key_8,     Key_9,         Key_0,         Key_Minus,
-   LockLayer(NUMPAD), Key_Y, Key_U, Key_I,     Key_O,         Key_P,         Key_Equals,
+   LockLayer(NUMPAD), Key_Y, Key_U, Key_I,     Key_O,         Key_P,         Key_Pipe,
                       Key_H, Key_J, Key_K,     Key_L,         Key_Semicolon, Key_Quote,
    Key_End,           Key_N, Key_M, Key_Comma, Key_Period,    Key_Slash,     Consumer_AL_Email_Reader,
-   ALT_T(Minus), SFT_T(Escape), CTL_T(Enter), SFT_T(KeypadRightParen),
+   ALT_T(Minus), CTL_T(Escape), Key_Enter, SFT_T(KeypadRightParen),
    ShiftToLayer(FUNCTION)
   ),
 
@@ -156,9 +156,9 @@ const Key keymaps[][ROWS][COLS] PROGMEM = {
   ),
 
   [FUNCTION] =  KEYMAP_STACKED
-  (___, Key_F1,  Key_F2,Key_F3,  Key_F4, Key_F5, XXX,
-   ___, ___, ___, ___, ___, ___, ___,
-   ___, ___, ___, ___, ___, ___,
+  (___, Key_F1,     Key_F2,      Key_F3,     Key_F4,        Key_F5, XXX,
+   ___, ___,        Key_mouseUp, ___,        ___,           ___, ___,
+   ___, Key_mouseL, Key_mouseDn, Key_mouseR, Key_mouseBtnL, ___,
    ___, ___, ___, ___, ___, ___, ___,
    ___, Key_Backspace, ___, ___,
    ___,
