@@ -139,7 +139,7 @@ const Key keymaps[][ROWS][COLS] PROGMEM = {
 
   [NUMPAD] =  KEYMAP_STACKED
   (___,    ___,               ___,       ___,                      ___,                       ___,         ___,
-   ___,    LSHIFT(Key_1), LSHIFT(Key_2), Key_KeypadLeftCurlyBrace, Key_KeypadRightCurlyBrace, Key_Pipe,    ___,
+   ___,    LSHIFT(Key_1), LSHIFT(Key_2), LSHIFT(Key_LeftBracket),  LSHIFT(Key_RightBracket),  Key_Pipe,    ___,
    ___,    LSHIFT(Key_3), LSHIFT(Key_4), Key_KeypadLeftParen,      Key_KeypadRightParen,      Key_Backtick,
    ___,    LSHIFT(Key_5), LSHIFT(Key_6), Key_LeftBracket,          Key_RightBracket,          LSHIFT(Key_Backtick),   ___,
    ___, ___, ___, ___,
