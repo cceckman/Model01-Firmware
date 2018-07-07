@@ -45,18 +45,15 @@
 // Support for host power management (suspend & wakeup)
 #include "Kaleidoscope-HostPowerManagement.h"
 
-<<<<<<< HEAD
 // Support for quantum / space cadet / dual-mode keys:
 // https://github.com/gedankenlab/Kaleidoscope-Qukeys
 # include <Kaleidoscope-Qukeys.h>
 
-=======
 // Support for magic combos (key chrods that trigger an action)
 #include "Kaleidoscope-MagicCombo.h"
 
 // Support for USB quirks, like changing the key state report protocol
 #include "Kaleidoscope-USB-Quirks.h"
->>>>>>> upstream
 
 /** This 'enum' is a list of all the macros used by the Model 01's firmware
   * The names aren't particularly important. What is important is that each
@@ -131,7 +128,7 @@ KEYMAPS(
   [QWERTY] = KEYMAP_STACKED
   (___,                 Key_1, Key_2, Key_3, Key_4, Key_5, Key_LEDEffectNext,
    Key_Tab,             Key_Q, Key_W, Key_E, Key_R, Key_T, LockLayer(NUMPAD),
-   CTL_T(Backtick), Key_A, Key_S, Key_D, Key_F, Key_G,
+   CTL_T(Backtick),     Key_A, Key_S, Key_D, Key_F, Key_G,
    Key_Escape,          Key_Z, Key_X, Key_C, Key_V, Key_B, Key_Home,
    SFT_T(KeypadLeftParen), Key_Space, GUI_T(Escape), Key_Minus,
    ShiftToLayer(FUNCTION),
@@ -329,6 +326,9 @@ KALEIDOSCOPE_INIT_PLUGINS(
   // The numpad plugin is responsible for lighting up the 'numpad' mode
   // with a custom LED effect
   NumPad,
+
+  // The macros plugin adds support for macros
+  Macros,
 
   // The MouseKeys plugin lets you add keys to your keymap which move the mouse.
   MouseKeys,
