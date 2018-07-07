@@ -1,6 +1,6 @@
 [submodule "Kaleidoscope-Qukeys"]
 	path = Kaleidoscope-Qukeys
-	url = https://github.com/gedankenlab/Kaleidoscope-Qukeys.git
+	url = https://github.com/keyboardio/Kaleidoscope-Qukeys.git
 [submodule "LED-Wavepool"]
 	path = LED-Wavepool
 	url = https://github.com/ToyKeeper/Kaleidoscope-LED-Wavepool.git
