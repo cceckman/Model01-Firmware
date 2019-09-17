@@ -267,7 +267,7 @@ KEYMAPS(
 
    ___, Key_F6,        Key_F7,            Key_F8,            Key_F9,         Key_F10, ___,
    ___, ___,           Key_mouseScrollDn, Key_mouseScrollUp, ___,            ___, ___,
-        Key_mouseL,    Key_mouseDn,       Key_mouseUp,       Key_mouseR,     ___, ___,
+        Key_LeftArrow, Key_DownArrow,     Key_UpArrow,       Key_RightArrow, ___, ___,
    ___, Key_LeftArrow, Key_DownArrow,     Key_UpArrow,       Key_RightArrow, ___, ___,
    ___, Key_mouseBtnR, Key_mouseBtnL, ___,
    ___
